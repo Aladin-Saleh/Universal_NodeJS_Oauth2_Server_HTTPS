@@ -1,3 +1,26 @@
+/*************************************************************************
+ * 
+ * 
+           _           _ _             _____       _      _     
+     /\   | |         | (_)           / ____|     | |    | |    
+    /  \  | | __ _  __| |_ _ __ _____| (___   __ _| | ___| |__  
+   / /\ \ | |/ _` |/ _` | | '_ \______\___ \ / _` | |/ _ \ '_ \ 
+  / ____ \| | (_| | (_| | | | | |     ____) | (_| | |  __/ | | |
+ /_/    \_\_|\__,_|\__,_|_|_| |_|    |_____/ \__,_|_|\___|_| |_|
+                                                                
+                                                                
+ * Serveur Nodejs créer dans le but de récuperer des jetons d'authentification dans diverses API.
+ * Ce serveur possède des certificat auto-signé que vous devez intégrer dans votre navigateur. (cf README.md)
+ * HTTPS
+ * Créer le 20/05/21 par @Aladin-Saleh
+ * Libre d'utilisation
+ * Github :  https://github.com/Aladin-Saleh
+ * npm --save install node-fetch
+ * npm --save install express
+ * 
+************************************************************************/
+
+
 console.log("Serveur HTTPS nodeJS - Certificat auto-signé !");
 
 const fetch = require('node-fetch');
